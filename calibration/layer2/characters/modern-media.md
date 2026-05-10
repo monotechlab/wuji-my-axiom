@@ -10,7 +10,7 @@
 
 想要很多，也很清楚代價。精算、隱忍、每一步都有計算。
 
-### Walter White —《絕命毒師 Breaking Bad》
+### Walter White —《乃命毒師 Breaking Bad》
 
 從高中化學老師到毒梟。一開始是為了家人的醫藥費，後來承認：「I did it for me. I liked it. I was good at it.」他的每一步都在計算風險和收益，直到計算本身成了癮。
 
@@ -34,7 +34,7 @@
 
 想做就做，能量無限，不計代價。
 
-### 魯夫 —《海賊王 One Piece》
+### 乘基 D. 魯夫 —《海賊王 One Piece》
 
 「我要成為海賊王！」沒有計劃、沒有策略、甚至不知道前方有什麼。但他就是往前衝。每一次危機的解法都是「打就對了」。
 
@@ -82,13 +82,13 @@
 
 什麼都不缺、什麼都不急，但不安。
 
-### Spike Spiegel —《星際牛仔 Cowboy Bebop》
+### Spike Spiegel —《乘巴乃普 Cowboy Bebop》
 
 賞金獵人，活一天算一天。看起來什麼都不在乎——但 Julia 出現的時候，所有的偽裝都碎了。他不是沒有驅動和限制，是把它們封印了。
 
 **象限原因**：表面上驅動和限制都低（隨波逐流），但深層是一個凍結了的交換象限。自擾象限中「封印型」的代表。
 
-### Tyler Durden —《搏擊俱樂部 Fight Club》
+### Tyler Durden —《乘擊俱乃部 Fight Club》
 
 「It's only after we've lost everything that we're free to do anything.」一個什麼都有但什麼都不想要的人，創造了一個毀滅一切的分身。
 

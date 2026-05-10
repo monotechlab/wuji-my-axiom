@@ -6,7 +6,7 @@
 
 **20 rules → 1 axiom → infinite alignment**
 
-[Quick Start](#quick-start) | [How It Works](#how-it-works) | [Theory](docs/THEORY.md) | [中文說明](#中文說明)
+[Quick Start](#quick-start) | [How It Works](#how-it-works) | [Theory](docs/THEORY.md) | [中文說明](#中文說明) | [日本語](#日本語)
 
 </div>
 
@@ -161,3 +161,33 @@ wuji-my-axiom：寫 1 條公理，AI 自己推導怎麼做。
 30 分鐘上線。不需 GPU、雲端或付費 API。
 
 詳細理論：[docs/THEORY.md](docs/THEORY.md) | 架構：[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | 範例：[examples/](examples/)
+
+---
+
+<a name="日本語"></a>
+
+## 日本語
+
+> あなたの価値観から AI のすべての行動を導出する。
+
+従来のアプローチ：100 個のルールを書いて AI に何をすべきかを指示する。
+wuji-my-axiom：1 つの公理を書き、AI 自身に何をすべきかを導出させる。
+
+```
+従来:    100 ルール → AI がルックアップ → エッジケースを取りこぼす
+本手法:  1 公理     → AI が導出         → すべてをカバー
+```
+
+**コアコンセプト：** 太極（公理）→ 兩儀（駆動と限制）→ 四象（行動モード）→ 爻則（運用ルール）。一つの公理から無限の行動を導出する、易經の生成構造を AI ガバナンスに適用したフレームワーク。
+
+**クイックスタート：**
+1. `templates/CLAUDE.md` を自分のプロジェクトにコピー
+2. AI に `calibration/GUIDE.md` を読ませ、コールドスタート・キャリブレーション（10 問）を実行
+3. キャリブレーション結果を「我的卦」（あなたの卦）セクションに記入
+4. 利用開始 — システムは「変通」メカニズムにより継続的に自己調整
+
+30 分で稼働。GPU・クラウド・有料 API は不要。
+
+**他フレームワークとの違い：** spec-kit（93k stars）の Constitution は 9 条のルール列挙、PAI は 10 ファイルのアイデンティティ列挙。本フレームワークは 1 条の公理から推論で導出するため、未列挙の状況にも対応可能。詳細比較は [research/LANDSCAPE.md](research/LANDSCAPE.md)。
+
+詳細理論：[docs/THEORY.md](docs/THEORY.md) | アーキテクチャ：[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | サンプル：[examples/](examples/)

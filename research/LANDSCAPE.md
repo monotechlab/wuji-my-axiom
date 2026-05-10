@@ -1,7 +1,8 @@
 # 相關工作比較
 
 > 本文件比較太極框架與現有的個人 AI 治理方案，確認差異化定位。
-> 最後更新：2026-04-09
+> 最後更新：2026-05-10（補類別六：規格 / Skill / Agent 同期生態 ×4）
+> 上次更新：2026-04-09（類別一～五 共 15 條）
 
 ---
 
@@ -132,6 +133,59 @@
 - **優點：** 跨工具記憶共享解決了碎片化問題。
 - **差異：** 和 Engram 類似——是基礎設施，不是治理系統。記憶的結構是扁平的（鍵值對或文件），沒有階層（太極→爻則→記憶）。
 - **缺什麼：** 記憶階層、治理邏輯、校準。
+
+---
+
+## 類別六：規格驅動 / Skill 標準 / Agent 編排（2025-2026 同期生態）
+
+> 此類別於 2026-05-10 新增。標的為 2025 下半年至 2026 上半年湧現的同類專案，與太極框架在「治理 AI 行為」這個問題空間競爭或互補。
+
+### 16. github/spec-kit
+
+- **來源：** https://github.com/github/spec-kit
+- **星數：** 93,163 / Forks 8,082（2026-05-08，同類最大 player）
+- **License：** MIT，由 GitHub Inc. 維護
+- **做了什麼：** Spec-Driven Development 工具鏈。33 個 AI agent integration、9 個 `/speckit.*` 命令（constitution / specify / clarify / plan / tasks / analyze / implement / checklist / taskstoissues）、5 份 Markdown 模板。從 specification 推導實作。
+- **優點：** 最大市場驗證、GitHub 官方推、SDD 完整工具鏈成熟、Constitution Check Gate 結構化。
+- **差異：** Constitution 是 **9 條規則枚舉**（Nine Articles），不是 1 條公理。spec-kit 把「從基礎文件治理」做到極致，但**停在 EPOCH-1.5（規則層 → 還沒走到公理層）**。結構同構：Constitution=太極、Constitution Check=爻則 GATE、specify→implement=生生線性化。spec-kit 是太極框架的 **EPOCH-1 對應物**，太極是 spec-kit 的 EPOCH-2 後繼。
+- **缺什麼：** 公理生成、生生循環的代謝式更新、個人化校準。
+- **詳細對齊度：** [research/spec-kit-eval.md](spec-kit-eval.md)
+
+### 17. addyosmani/agent-skills
+
+- **來源：** https://github.com/addyosmani/agent-skills
+- **星數：** 30.4k / Forks 3.6k（2026-05-07）
+- **License：** MIT
+- **做了什麼：** 20 個 SKILL，沿 SDLC 6 phase 全鋪。SKILL.md 強制 9 段 anatomy（Overview / When / Process / Anti-Patterns / Rationalizations / Red Flags / Verification 等）。
+- **優點：** SKILL.md 標準清晰、可直接借鑑做模板、Anti-Patterns + Rationalizations + Red Flags 三段是同類最詳。
+- **差異：** 完全無 lifecycle 機制（無 usage tracking / 無 demote / 無 birth filter），20 skill 一次鋪開不過濾。太極框架在 skill metabolism 維度領先：5 層 substrate + birth filter + demotion + weekly audit。
+- **缺什麼：** 治理層（skills 不過 birth filter 直接堆積）、生命週期、公理層。
+- **詳細評估：** [research/addyosmani-agent-skills.md](addyosmani-agent-skills.md)
+
+### 18. ruvnet/ruflo
+
+- **來源：** https://github.com/ruvnet/ruflo
+- **規模：** 5800+ commits，60-100+ agents（企業級）
+- **License：** MIT
+- **做了什麼：** 多 Agent swarm orchestration。Queen + Topology + Hooks + 三層記憶 + 五階學習迴路。
+- **優點：** 多 agent 協調機制成熟、hook taxonomy 完整、capability-based dispatch。
+- **差異：** 設計給**企業多人團隊**，80% 機制對一人組織是負收益。太極框架解決「一人認知超載」，ruflo 解決「多人協調」 — 不同問題不同最佳點。反向佐證太極框架的差異化定位。
+- **缺什麼：** 個人化、公理層、一人組織適配。
+- **詳細評估：** [research/ruflo.md](ruflo.md)
+
+### 19. awslabs/aidlc-workflows
+
+- **來源：** https://github.com/awslabs/aidlc-workflows
+- **License：** 待確認（AWS labs 標案，多為 Apache 2.0）
+- **做了什麼：** AWS 推的 agentic SDLC 工作流規則包。含 audit trail / run-folder / opt-in 機制，對齊 AWS Well-Architected 框架。
+- **優點：** 結構化 SDLC 工作流、run-folder 設計可追溯、企業合規友善。
+- **差異：** 是**規則包不是 framework**。沒有公理層、沒有校準、設計給 AWS 客戶用而非個人。可借鑑 audit / run-folder / opt-in 三件機制，不需 fork。
+- **缺什麼：** 公理生成、個人化、校準。
+- **詳細評估：** [research/aidlc-workflows-eval.md](aidlc-workflows-eval.md)
+
+### 此類別小結
+
+2025-2026 湧現的「規格 / Skill / Agent」同期生態都在解 AI 治理問題，但都停在規則枚舉層。spec-kit 是最強市場 player（93k stars）但結構上仍是 EPOCH-1.5。太極框架的差異化定位是**走完從規則→公理的相變**，並補上 lifecycle / 一人組織適配 / 個人化校準三項缺口。
 
 ---
 

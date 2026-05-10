@@ -55,7 +55,7 @@ cp -r wuji-my-axiom/templates/memory your-project/memory
 
 ### 4. 填入「我的卦」
 
-校準完成後，AI 會產出你的兩儀、四象與應用層太極。把結果填入 `CLAUDE.md` 的「我的卦」區段：
+校準完成後，AI 會產出你的兩儀、四象與應用層太極。把結果填入 `CLAUDE.md` 的「我的卦」區塊：
 
 ```markdown
 ## 我的卦
