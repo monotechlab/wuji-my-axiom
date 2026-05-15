@@ -6,10 +6,10 @@ The papers in this directory document the framework's deployment history, failur
 
 | File | Language | Type | Length |
 |---|---|---|---|
-| [`wuji-paper.md`](wuji-paper.md) | English | Research note, v0.2 (2026-05-15) | ~41 KB |
-| [`wuji-paper-zh.md`](wuji-paper-zh.md) | 中文 | 同 v0.2 中文版 | ~36 KB |
-| [`wuji-saga.md`](wuji-saga.md) | 中文 | Narrative companion — how the patches came to be in story form | ~18 KB |
-| [`wuji-review.md`](wuji-review.md) | 中文 | The 2026-05-15 critical review that drove v0.2 (11 argument gaps + LOCAL observations) | ~9 KB |
+| [`wuji-paper-zh.md`](wuji-paper-zh.md) | **中文（主版）** | 研究筆記 v0.2（2026-05-15）— 原始撰寫語言 | ~36 KB |
+| [`wuji-paper.md`](wuji-paper.md) | English | Research note v0.2 — translated from Chinese | ~41 KB |
+| [`wuji-saga.md`](wuji-saga.md) | 中文 | 敘事姊妹篇 — 補丁如何誕生的故事版 | ~18 KB |
+| [`wuji-review.md`](wuji-review.md) | 中文 | 2026-05-15 critical review，驅動 v0.2 修訂的 11 漏洞 + LOCAL 觀察 | ~9 KB |
 
 ## Versioning
 

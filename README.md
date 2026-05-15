@@ -110,7 +110,25 @@ research/         Landscape comparison + academic references
 papers/           Formal academic post-mortem (v0.2, 2026-05-15) ⭐ new
 ```
 
-> 📄 **New (v0.2, 2026-05-15)**: see [`papers/`](papers/) for the formal academic write-up of this framework's deployment history, failure modes, and structural patches — in English ([`papers/wuji-paper.md`](papers/wuji-paper.md)) and 中文 ([`papers/wuji-paper-zh.md`](papers/wuji-paper-zh.md)).
+> 📄 **新增（v0.5, 2026-05-15）**：[`papers/`](papers/) 收錄本框架部署歷史、失敗模式、結構性補丁的正式學術 post-mortem — 中文主版 [`papers/wuji-paper-zh.md`](papers/wuji-paper-zh.md)（v0.2）/ English translation [`papers/wuji-paper.md`](papers/wuji-paper.md)。
+
+## What's New — v0.5 (2026-05-15)
+
+**Repository update**: catches up framework v0.3 (PATCH-002 / 化 grounding) + v0.4 (4/12-5/10 research expansion, bilingual README) untagged commits, and adds a new `papers/` directory containing the formal academic write-up (paper v0.2).
+
+**Paper v0.2 — 7-day post-deployment revision of the v0.1 (2026-04-22) write-up**. All v0.1 core contributions (failure-mode taxonomy / meta-cognition cannot be assumed / modify-loop-not-rule) are **preserved and reinforced**, not refuted. v0.2 adds:
+
+- **§4.4** — splits "structural" into **positional** vs **enforcement** dimensions. v0.1 patches operate at the positional dimension; enforcement remains open as the next engineering target.
+- **§5.3 / §5.4 / §5.5** — data honesty: 20% healthy fuzzy-rate anchor tagged `[unverified]`; selection-bias floor method introduced for n=18; descriptive trend table across epochs (with cohort-comparability warning).
+- **§6.4 — Reverse hypothesis**: three parallel routes for what comes next (next-phase patch / enforcement layer / patch pathway fundamentally insufficient), with abandonment conditions. v0.1's single-route assumption removed.
+- **§6.5 — LOCAL feedback loop ≠ Wuji**: acknowledges that real grounding capability in deployment is **Owner intervention + memory feedback loop (RLHF-via-correction) + wuji prompt-level reminder, three layers stacked** — not wuji alone. This sharpens v0.1's meta-cognition thesis.
+- **§8.5** — EPOCH-3 forecast: four observation points that would trigger architecture restructuring.
+- **§C.0** — external dependency statement of the self-coherence audit (resolves a surface contradiction in v0.1 §C).
+- **§C.6** — v0.2 revision self-coherence audit (90% of review gaps mapped, 10% deferred to v0.3).
+
+**See also**: [`papers/wuji-review.md`](papers/wuji-review.md) — the 2026-05-15 critical review that drove v0.2 (11 argument gaps + 3 LOCAL observations).
+
+**v0.3 roadmap** (next paper version, not framework): Appendix D reproducibility protocol; selection-bias floor computation; cross-provider migration test.
 
 ## How This Is Different
 
