@@ -107,7 +107,10 @@ calibration/      Cold-start flow + question banks + character libraries
 docs/             Theory, architecture, setup, daily ops, evolution, evaluation
 examples/         Full walkthrough with a fictional character (3 epochs)
 research/         Landscape comparison + academic references
+papers/           Formal academic post-mortem (v0.2, 2026-05-15) ⭐ new
 ```
+
+> 📄 **New (v0.2, 2026-05-15)**: see [`papers/`](papers/) for the formal academic write-up of this framework's deployment history, failure modes, and structural patches — in English ([`papers/wuji-paper.md`](papers/wuji-paper.md)) and 中文 ([`papers/wuji-paper-zh.md`](papers/wuji-paper-zh.md)).
 
 ## How This Is Different
 
